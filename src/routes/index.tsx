@@ -7,6 +7,16 @@ import img3 from "@/assets/rei-do-ferro-3.webp.asset.json";
 import img4 from "@/assets/rei-do-ferro-4.webp.asset.json";
 import img5 from "@/assets/rei-do-ferro-5.webp.asset.json";
 import logo from "@/assets/rei-do-ferro-logo.png.asset.json";
+import correr1 from "@/assets/obra-portao-correr-1.webp.asset.json";
+import correr2 from "@/assets/obra-portao-correr-2.webp.asset.json";
+import basc1 from "@/assets/obra-basculante-1.webp.asset.json";
+import basc2 from "@/assets/obra-basculante-2.webp.asset.json";
+import basc3 from "@/assets/obra-basculante-3.webp.asset.json";
+import bascSocial from "@/assets/obra-basculante-social.webp.asset.json";
+import enrolar1 from "@/assets/obra-porta-enrolar-1.webp.asset.json";
+import enrolar2 from "@/assets/obra-porta-enrolar-2.webp.asset.json";
+import enrolar3 from "@/assets/obra-porta-enrolar-3.webp.asset.json";
+import enrolar4 from "@/assets/obra-porta-enrolar-4.webp.asset.json";
 
 const TITLE = "Rei do Ferro | Serralheria em Sinop - MT";
 const DESCRIPTION =
@@ -253,7 +263,7 @@ function Index() {
           </div>
           <div className="sg">
             <a href="#portoes" className="cd r">
-              <img src={img1.url} loading="lazy" alt="Portão basculante" />
+              <img src={correr1.url} loading="lazy" alt="Portão de correr" />
               <div>
                 <em>01</em>
                 <h3>Portões</h3>
@@ -263,7 +273,7 @@ function Index() {
               </div>
             </a>
             <a href="#portas-de-enrolar" className="cd r" style={d(".1s")}>
-              <img src={img5.url} loading="lazy" alt="Fachada em serralheria" />
+              <img src={enrolar4.url} loading="lazy" alt="Porta de enrolar em galpão comercial" />
               <div>
                 <em>02</em>
                 <h3>Portas de enrolar</h3>
@@ -305,7 +315,7 @@ function Index() {
           <div className="gr">
             <div className="gp">
               <div className="m">
-                <img src={img4.url} loading="lazy" alt="Portão de correr" />
+                <img src={correr1.url} loading="lazy" alt="Portão de correr" />
               </div>
               <h3 className="r">Portão de correr</h3>
               <p className="r">Praticidade no dia a dia, feito sob medida para o seu espaço.</p>
@@ -313,7 +323,7 @@ function Index() {
             </div>
             <div className="gp">
               <div className="m">
-                <img src={img1.url} loading="lazy" alt="Portão basculante" />
+                <img src={basc1.url} loading="lazy" alt="Portão basculante" />
               </div>
               <h3 className="r">Portão basculante</h3>
               <p className="r">Segurança e acabamento para garagens residenciais e comerciais.</p>
@@ -321,12 +331,7 @@ function Index() {
             </div>
             <div className="gp">
               <div className="m">
-                <img
-                  src={img1.url}
-                  loading="lazy"
-                  alt="Basculante com social embutido"
-                  style={{ objectPosition: "right" }}
-                />
+                <img src={bascSocial.url} loading="lazy" alt="Basculante com social embutido" />
               </div>
               <h3 className="r">Basculante com social embutido</h3>
               <p className="r">Portão da garagem e acesso social integrados em um só projeto.</p>
@@ -347,7 +352,7 @@ function Index() {
           <div className="gr g2c">
             <div className="gp">
               <div className="m">
-                <img src={img5.url} loading="lazy" alt="Porta de enrolar manual" />
+                <img src={enrolar2.url} loading="lazy" alt="Porta de enrolar manual" />
               </div>
               <h3 className="r">Porta de enrolar manual</h3>
               <p className="r">Simples, resistente e econômica.</p>
@@ -355,12 +360,7 @@ function Index() {
             </div>
             <div className="gp">
               <div className="m">
-                <img
-                  src={img5.url}
-                  loading="lazy"
-                  alt="Porta de enrolar automática"
-                  style={{ objectPosition: "right" }}
-                />
+                <img src={enrolar1.url} loading="lazy" alt="Porta de enrolar automática" />
               </div>
               <h3 className="r">Porta de enrolar automática</h3>
               <p className="r">Com motor, acionada por controle remoto.</p>
@@ -432,13 +432,20 @@ function Index() {
           <p className="s r">Conheça alguns dos trabalhos realizados pelo Rei do Ferro.</p>
           <div className="pg">
             {[
-              { src: img4.url, alt: "Portão de correr", cat: "PORTÕES", t: "Portão de correr", dl: "0s" },
+              { src: correr2.url, alt: "Portão de correr com recorte decorativo", cat: "PORTÕES", t: "Portão de correr", dl: "0s" },
+              { src: basc2.url, alt: "Portão basculante preto", cat: "PORTÕES", t: "Basculante", dl: ".1s" },
+              { src: enrolar4.url, alt: "Porta de enrolar em galpão", cat: "PORTAS DE ENROLAR", t: "Porta de enrolar automática", dl: ".2s" },
+              { src: basc3.url, alt: "Portão basculante com social", cat: "PORTÕES", t: "Basculante com social", dl: "0s" },
+              { src: enrolar3.url, alt: "Porta de enrolar em loja", cat: "PORTAS DE ENROLAR", t: "Porta de enrolar comercial", dl: ".1s" },
+              { src: correr1.url, alt: "Portão de correr residencial", cat: "PORTÕES", t: "Portão de correr", dl: ".2s" },
+              { src: enrolar1.url, alt: "Porta de enrolar transvision", cat: "PORTAS DE ENROLAR", t: "Porta de enrolar transvision", dl: "0s" },
+              { src: bascSocial.url, alt: "Basculante com social embutido", cat: "PORTÕES", t: "Basculante com social", dl: ".1s" },
+              { src: enrolar2.url, alt: "Porta de enrolar manual", cat: "PORTAS DE ENROLAR", t: "Porta de enrolar manual", dl: ".2s" },
+              { src: basc1.url, alt: "Portão basculante", cat: "PORTÕES", t: "Basculante", dl: "0s" },
               { src: img2.url, alt: "Guarda-corpo", cat: "SERRALHERIA", t: "Guarda-corpo", dl: ".1s" },
-              { src: img1.url, alt: "Portão basculante", cat: "PORTÕES", t: "Basculante", dl: ".2s" },
-              { src: img3.url, alt: "Gradil ornamental", cat: "ESTRUTURAS", t: "Gradil ornamental", dl: ".1s" },
               { src: img5.url, alt: "Fachada metálica", cat: "SERRALHERIA", t: "Fachada com brises", dl: ".2s" },
             ].map((p) => (
-              <div className="pt r" style={d(p.dl)} key={p.t}>
+              <div className="pt r" style={d(p.dl)} key={p.src}>
                 <img src={p.src} loading="lazy" alt={p.alt} />
                 <div>
                   <em>{p.cat}</em>
