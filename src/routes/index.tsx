@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState, type CSSProperties } from "react";
 
-import img1 from "@/assets/rei-do-ferro-1.webp.asset.json";
 import img2 from "@/assets/rei-do-ferro-2.webp.asset.json";
 import img3 from "@/assets/rei-do-ferro-3.webp.asset.json";
 import img4 from "@/assets/rei-do-ferro-4.webp.asset.json";
