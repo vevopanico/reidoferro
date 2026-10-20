@@ -8,3 +8,7 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+## Project rules
+- The home page is a faithful copy of the original Rei do Ferro site; its styles live verbatim in `src/site.css` (short original class names like `.w`, `.r`, `.gp`). Keep edits in that file and the existing class names so the page stays identical to the original.
+- Site photos and logo are Lovable Assets pointers in `src/assets/*.asset.json`; the favicon is a real file in `public/`. Why: no dependency on the old host.
