@@ -5,7 +5,12 @@ import img2 from "@/assets/rei-do-ferro-2.webp.asset.json";
 import img3 from "@/assets/rei-do-ferro-3.webp.asset.json";
 import img4 from "@/assets/rei-do-ferro-4.webp.asset.json";
 import img5 from "@/assets/rei-do-ferro-5.webp.asset.json";
+import img1 from "@/assets/rei-do-ferro-1.webp.asset.json";
 import logo from "@/assets/rei-do-ferro-logo.png.asset.json";
+import correr3 from "@/assets/obra-portao-correr-3.webp.asset.json";
+import correr4 from "@/assets/obra-portao-correr-4.webp.asset.json";
+import correr5 from "@/assets/obra-portao-correr-5.webp.asset.json";
+import correr6 from "@/assets/obra-portao-correr-6.webp.asset.json";
 import correr1 from "@/assets/obra-portao-correr-1.webp.asset.json";
 import correr2 from "@/assets/obra-portao-correr-2.webp.asset.json";
 import basc1 from "@/assets/obra-basculante-1.webp.asset.json";
@@ -246,7 +251,7 @@ function Index() {
             </p>
           </div>
           <div className="m ab">
-            <img src={img3.url} loading="lazy" alt="Grade e portão em ferro trabalhado" />
+            <img src={correr2.url} loading="lazy" alt="Portão de correr com recorte decorativo" />
           </div>
         </div>
       </section>
@@ -262,7 +267,7 @@ function Index() {
           </div>
           <div className="sg">
             <a href="#portoes" className="cd r">
-              <img src={correr1.url} loading="lazy" alt="Portão de correr" />
+              <img src={correr6.url} loading="lazy" alt="Portão de correr preto" />
               <div>
                 <em>01</em>
                 <h3>Portões</h3>
@@ -282,7 +287,7 @@ function Index() {
               </div>
             </a>
             <a href="#estruturas-metalicas" className="cd r" style={d(".2s")}>
-              <img src={img3.url} loading="lazy" alt="Estrutura metálica" />
+              <img src={correr5.url} loading="lazy" alt="Portão e gradil metálico" />
               <div>
                 <em>03</em>
                 <h3>Estruturas metálicas</h3>
@@ -291,7 +296,7 @@ function Index() {
               </div>
             </a>
             <a href="#serralheria-em-geral" className="cd r" style={d(".3s")}>
-              <img src={img2.url} loading="lazy" alt="Guarda-corpo em ferro" />
+              <img src={img5.url} loading="lazy" alt="Fachada com brises metálicos" />
               <div>
                 <em>04</em>
                 <h3>Serralheria em geral</h3>
@@ -389,7 +394,7 @@ function Index() {
             <QuoteBtn msg="Olá! Gostaria de um orçamento de estrutura metálica." />
           </div>
           <div className="m ab">
-            <img src={img3.url} loading="lazy" alt="Estrutura metálica sob medida" />
+            <img src={img3.url} loading="lazy" alt="Gradil ornamental em ferro" />
           </div>
         </div>
       </section>
@@ -413,13 +418,8 @@ function Index() {
             </ul>
             <QuoteBtn msg="Olá! Gostaria de um orçamento de serralheria." />
           </div>
-          <div className="sx">
-            <div className="m">
-              <img src={img2.url} loading="lazy" alt="Guarda-corpo em ferro" />
-            </div>
-            <div className="m">
-              <img src={img5.url} loading="lazy" alt="Fachada com brises metálicos" />
-            </div>
+          <div className="m ab">
+            <img src={img2.url} loading="lazy" alt="Guarda-corpo em ferro" />
           </div>
         </div>
       </section>
@@ -431,18 +431,11 @@ function Index() {
           <p className="s r">Conheça alguns dos trabalhos realizados pelo Rei do Ferro.</p>
           <div className="pg">
             {[
-              { src: correr2.url, alt: "Portão de correr com recorte decorativo", cat: "PORTÕES", t: "Portão de correr", dl: "0s" },
+              { src: correr3.url, alt: "Portão de correr preto em chapa", cat: "PORTÕES", t: "Portão de correr", dl: "0s" },
               { src: basc2.url, alt: "Portão basculante preto", cat: "PORTÕES", t: "Basculante", dl: ".1s" },
-              { src: enrolar4.url, alt: "Porta de enrolar em galpão", cat: "PORTAS DE ENROLAR", t: "Porta de enrolar automática", dl: ".2s" },
-              { src: basc3.url, alt: "Portão basculante com social", cat: "PORTÕES", t: "Basculante com social", dl: "0s" },
-              { src: enrolar3.url, alt: "Porta de enrolar em loja", cat: "PORTAS DE ENROLAR", t: "Porta de enrolar comercial", dl: ".1s" },
-              { src: correr1.url, alt: "Portão de correr residencial", cat: "PORTÕES", t: "Portão de correr", dl: ".2s" },
-              { src: enrolar1.url, alt: "Porta de enrolar transvision", cat: "PORTAS DE ENROLAR", t: "Porta de enrolar transvision", dl: "0s" },
-              { src: bascSocial.url, alt: "Basculante com social embutido", cat: "PORTÕES", t: "Basculante com social", dl: ".1s" },
-              { src: enrolar2.url, alt: "Porta de enrolar manual", cat: "PORTAS DE ENROLAR", t: "Porta de enrolar manual", dl: ".2s" },
-              { src: basc1.url, alt: "Portão basculante", cat: "PORTÕES", t: "Basculante", dl: "0s" },
-              { src: img2.url, alt: "Guarda-corpo", cat: "SERRALHERIA", t: "Guarda-corpo", dl: ".1s" },
-              { src: img5.url, alt: "Fachada metálica", cat: "SERRALHERIA", t: "Fachada com brises", dl: ".2s" },
+              { src: enrolar3.url, alt: "Porta de enrolar em loja", cat: "PORTAS DE ENROLAR", t: "Porta de enrolar comercial", dl: ".2s" },
+              { src: basc3.url, alt: "Portão com social", cat: "PORTÕES", t: "Portão com social", dl: ".1s" },
+              { src: img1.url, alt: "Portão basculante com social", cat: "PORTÕES", t: "Basculante com social", dl: ".2s" },
             ].map((p) => (
               <div className="pt r" style={d(p.dl)} key={p.src}>
                 <img src={p.src} loading="lazy" alt={p.alt} />
@@ -526,7 +519,7 @@ function Index() {
       </section>
 
       <section className="cta">
-        <img src={img3.url} loading="lazy" alt="Projetos em serralheria" />
+        <img src={correr4.url} loading="lazy" alt="Portão de correr e social em residência" />
         <div className="w">
           <Lines lines={["Seu projeto", "começa aqui."]} />
           <p className="s r" style={{ margin: "24px auto" }}>
